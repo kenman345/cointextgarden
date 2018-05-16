@@ -7,7 +7,7 @@ url: https://kenman345.github.io
 repository: kenman345/contextgarden
 repo: https://github.com/kenman345/contextgarden
 theme: null
-baseurl: "/context"
+baseurl: "/contextgarden"
 sass:
   style: compressed
 plugins:
