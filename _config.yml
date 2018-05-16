@@ -7,7 +7,7 @@ url: http://meeting.contextgarden.net
 repository: kenman345/contextgarden
 repo: https://github.com/kenman345/contextgarden
 theme: null
-baseurl: ""
+baseurl: "/context"
 sass:
   style: compressed
 plugins:
