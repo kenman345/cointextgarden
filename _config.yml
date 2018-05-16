@@ -41,10 +41,6 @@ defaults:
       path: /_meetings/2*/
     values:
       permalink: /:year/:title:output_ext
-  # - scope:
-      # path: /_meetings/*/about.html
-    # values:
-      # permalink: /:year/
 
 jekyll-minifier:
   compress_javascript: true         # Default: true
