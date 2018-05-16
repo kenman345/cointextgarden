@@ -8,6 +8,7 @@ repository: kenman345/contextgarden
 repo: https://github.com/kenman345/contextgarden
 theme: null
 baseurl: "/contextgarden"
+keywords: ConTeXt Conference, ConTeXt User Group, TeX User Meeting, TUG, NTG, DANTE, CSTUG, TeX, LaTeX, Pragma, Hans Hagen, Taco Hoekwater, tutorial
 sass:
   style: compressed
 plugins:
