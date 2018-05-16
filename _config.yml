@@ -1,0 +1,51 @@
+markdown: kramdown
+highlighter: rouge
+
+title: ConTeXt Garden
+description: Meeting Info
+url: http://meeting.contextgarden.net
+repository: kenman345/contextgarden
+repo: https://github.com/kenman345/contextgarden
+theme: null
+baseurl: ""
+sass:
+  style: compressed
+plugins:
+  - jekyll-feed
+  - jekyll-minifier
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-sitemap
+exclude:
+  - CNAME
+  - Gemfile
+  - Rakefile
+  - README.md
+
+collections:
+  meetings:
+    output: true
+
+defaults:
+  - scope:
+      path: /_meetings/current/*.html
+    values:
+      permalink: /:year/
+      redirect_from:
+        - /
+  - scope:
+      path: /_meetings/current/*.shtml
+    values:
+      permalink: /:year/:title:output_ext
+  - scope:
+      path: /_meetings/2*/
+    values:
+      permalink: /:year/:title:output_ext
+  # - scope:
+      # path: /_meetings/*/about.html
+    # values:
+      # permalink: /:year/
+
+jekyll-minifier:
+  compress_javascript: true         # Default: true
+  exclude: ['robots.txt']

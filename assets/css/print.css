@@ -1,0 +1,52 @@
+.floatright,
+ #left, #right, #bottom, #top,
+ #top-one, #top-two,
+ #bottom-one, #bottom-two,
+ #left-one, #left-two,
+ #right-one,  #right-two, #right-three, #right-four,
+ #more-top, #more-top-settings, #more-right-settings, #right-safari {
+    display: none ;
+}
+
+body {
+    font-family: optima, verdana, futura, "lucida sans", arial, geneva, helvetica, sans-serif;
+    font-size: 12pt;
+    line-height: 16pt;
+}
+
+table.programme th {
+    text-align: left;
+    font-weight: bold;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #999999;
+}
+
+table.programme thead th {
+    color: black;
+}
+
+table.programme tr.meal {
+    color: #666666;
+}
+
+table.programme tbody td {
+    border-bottom: 1px solid #eeeeee;
+}
+
+/* TeX */
+/* \def\TeX{T\kern-.1667em\lower.5ex\hbox{E}\kern-.125emX} */
+/* idea borrowed from http://www.tug.org/texlive/doc/texlive-en/texlive-en.css */
+span.TeX span.E {
+    position: relative;
+    top: 0.5ex;
+    left: -0.1667em;
+    /*letter-spacing:-0.2917em;*/
+    letter-spacing: -0.25em;
+}
+span.TeX span.A {
+    position:relative;
+    top: -0.5ex;
+    left: -0.3em;
+    font-size: 85%;
+    letter-spacing: -0.4em;
+}

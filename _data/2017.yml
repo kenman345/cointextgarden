@@ -1,0 +1,16 @@
+nav:
+- label: about
+  title: meeting main page
+  path:  /
+- label: programme
+  path: /programme.shtml
+- label: location
+  path: /location.shtml
+- label: fee
+  path: /fee.shtml
+- label: registration
+  path: /registration.shtml
+- label: travel
+  path: /travel.shtml
+- label: abstracts
+  path: /abstracts.shtml

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ConTeXt User Meeting 2018</title>
+        <meta name="keywords" content="ConTeXt Conference, ConTeXt User Group, TeX User Meeting, TUG, NTG, DANTE, CSTUG, TeX, LaTeX, Pragma, Hans Hagen, Taco Hoekwater, tutorial">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="robots" content="all">
+        <link rel="stylesheet" type="text/css" media="screen" href="/screen.css">
+        <link rel="stylesheet" type="text/css" media="print" href="/print.css">
+    </head>
+    <body>
+        <div id="top">
+            <div id="top-one">
+                <div id="top-two">
+                    <a href="/2018/" title="meeting main page">about</a>&nbsp;
+                    <!-- a href="/2018/programme.shtml" title="programme">programme</a>&nbsp; -->
+                    <a href="/2018/abstracts.shtml" title="abstracts">abstracts</a>&nbsp;
+                    <a href="/2018/location.shtml" title="location">location</a>&nbsp;
+                    <a href="/2018/fee.shtml" title="fee">fee</a>&nbsp;
+                    <a href="/2018/register.shtml" title="register">registration</a>&nbsp;
+                    <!-- a href="/2018/travel.shtml" title="travel">travel</a>&nbsp; -->
+                    <a href="/2018/contacts.shtml" title="contacts">contacts</a>
+                    
+                </div>
+            </div>
+        </div>
+        <div id="bottom">
+            <div id="bottom-one">
+                <div id="bottom-two">12th <span class="TeX">ConT<span class="E">E</span>Xt</span> Meeting: Prague&ndash;Sibřina, Czech Republic, September 2–8, 2018</div>
+            </div>
+        </div>
+        <div id="left">
+            <div id="left-one">
+                <div id="left-two">
+                    <a href="/2018/" title="12th ConTeXt Meeting, Prague&ndash;Sibřina, Czech Republic, 2018">2018</a><br><br>
+<a href="/2017/" title="11th ConTeXt Meeting, Maibach, Germany, 2017">2017</a><br><br>
+<a href="/2016/" title="10th ConTeXt Meeting, Kalenberg, The Netherlands, 2016">2016</a><br><br>
+<a href="/2015/" title="9th ConTeXt Meeting, Nasbinals, France, 2015">2015</a><br><br>
+<a href="/2014/" title="8th ConTeXt Meeting, Bassenge, Belgium, 2014">2014</a><br><br>
+<a href="/2013/" title="7th ConTeXt Meeting, Brejlov (Prague), Czech Republic, 2013">2013</a><br><br>
+<a href="/2012/" title="6th ConTeXt Meeting, Breskens, The Netherlands, 2012">2012</a><br><br>
+<a href="/2011/" title="5th ConTeXt Meeting, Bassenge, Belgium, 2011">2011</a><br><br>
+<a href="/2010/" title="4th ConTeXt Meeting, Brejlov (Prague), Czech Republic, 2010">2010</a><br><br>
+<a href="/2009/" title="3rd ConTeXt Meeting / EuroTeX, The Hague, The Netherlands, 2009">2009</a><br><br>
+<a href="/2008/" title="2st ConTeXt User Meeting, Bohinj, Slovenija, 2008">2008</a><br><br>
+<a href="/2007/" title="1st ConTeXt User Meeting, Epen, The Netherlands, 2007">2007</a><br><br>
+
+                    <br>
+                    <a href="http://wiki.contextgarden.net" title="ConTeXt wiki">wiki</a><br><br>
+                    <a href="http://www.pragma-ade.com" title="PRAGMA ADE">pragma</a><br><br>
+                </div>
+            </div>
+        </div>
+        <div id="right">
+            <div id="right-safari">
+                <div id="right-one">
+                    <div id="right-two">
+                        &nbsp;&nbsp;
+                        <div id="right-three">
+                            <div id="right-four">
+                                <div id="right-five"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="main">
+            <div id="main-settings">
+
+<h1>Conference fee</h1>
+<p>The fee includes hosting (full board, starting with dinner on
+    Sunday and ending with breakfast on Saturday), conference costs and conference materials.<br>
+    Conference programme starts on Monday morning and ends on Friday evening.
+    Installation help and consultations will be provided on Sunday evening.<br>
+    If you need the invoice in advance, please, contact us at &lt;cg-treasurer <i>at</i> contextgarden <i>dot</i> net&gt;.
+</p>
+<p>Before registration you can register as a member of the 
+    <a href="http://group.contextgarden.net">ConTeXt Group</a>, 
+    which entitles you to the discounted fee.
+</p>
+<p></p>
+<h3>12th ConTeXt Meeting</h3>
+<p>Payments made before July 1, 2018 (incl.) are considered early-bird payments.</p>
+<p>Single rooms will be available – depending on number of participants likely in the other houses of the village – for an additional 75 € in total.
+    Number of single rooms is extremely limited, and participants will be served on first come, first served basis.
+</p>
+<!-- p>It is possible to sleep in a communal dorm room with mattresses 
+    on the floor. You’ll need to bring your own pillow and coverings or sleeping bag in 
+    that case, but you will be entitled to a discount of 75 €.
+</p -->
+<table class="programme">
+    <thead>
+        <tr>
+            <th>ConTeXt Meeting Fee (Sunday to Saturday)</th>
+            <th>early-bird (before July 1, 2018)</th>
+            <th>normal (after July 1, 2018)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>Regular</th>
+            <td>350 €</td>
+            <td>400 €</td>
+        </tr>
+        <tr>
+            <th>CG member</th>
+            <td>300 €</td>
+            <td>350 €</td>
+        </tr>
+    </tbody>
+</table>
+<p>Everybody who will be the attending ConTeXt Meeting for the <b>first time</b> or is an <b>active student</b> can request an extra 100 € discount.</p>
+
+<h3>Excursion</h3>
+<p>An excursion will be announced later.</p>
+
+<!-- h3>Accompanying persons</h3>
+<p>Check out the possible activities in <a href="location.shtml">Maibach</a> and bring your family or friends.<br>
+    Add 300 € with included meals for one accompanying person.
+</p -->
+<hr>
+<h1>Money transfers</h1>
+<p>If you have account in Europe (EU, Switzerland, Iceland, Norway, Liechtenstein, Monaco, San Marino and Andorra), you can make a SEPA payment using IBAN/BIC (cheapest for both parties):</p>
+<table class="programme">
+    <tbody>
+        <tr>
+            <td>IBAN:</td>
+            <td><b>FR86 2004 1010 1308 3104 6H03 464</b></td>
+        </tr>
+        <tr>
+            <td>BIC:</td>
+            <td><b>PSSTFRPPREN</b></td>
+        </tr>
+    </tbody>
+</table>
+<p>You might also need the following addresses:</p>
+<table class="programme">
+    <tbody>
+        <tr>
+            <th>Our Address</th>
+            <th>Bank Address</th>
+        </tr>
+        <tr>
+            <td>
+                <span class="TeX">ConT<span class="E">E</span>Xt</span> Group<br>
+                La Roche Blanche<br>
+                35190 Québriac<br>
+                France
+            </td>
+            <td>
+                La Banque Postale<br>
+                Centre Financier Rennes<br>
+                11 rue Vanneau<br>
+                35900 Rennes Cedex 9<br>
+                France
+            </td>
+        </tr>
+    </tbody>
+</table>
+<hr>
+</div></div>
+</body>
+</html>
+

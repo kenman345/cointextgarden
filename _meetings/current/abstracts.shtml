@@ -1,0 +1,173 @@
+---
+layout: default
+title: abstract
+date: 2018-01-01
+---
+
+<h1> Abstracts </h1>
+
+<p>New proposals should be addressed to Taco Hoekwater or Hans Hagen.</p>
+
+
+<hr/>
+
+<h2>LuaTeX: the move from 5.2 to 5.3</h2>
+
+<h3>Hans Hagen and Luigi Scarso</h3>
+
+<p>At the end of 2017 we started experimenting with Lua&nbsp;5.3 that we wanted to
+switch to at some point. Because the number system in Lua is now automatically
+working with integers or floats we expected some issues. In this talk we will
+discuss what we really ran into.</p>
+
+
+
+<h2>LuaTeX: how useful is FFI</h2>
+
+<h3>Hans Hagen and Luigi Scarso</h3>
+
+<p>For a while we can now interface to external modules using the FFI mechanism,
+which has advantages as well as drawbacks. Here we will give an update on where
+we stand and how ConTeXt can (or might) use it.</p>
+
+
+
+<h2>ConTeXt: running remote</h2>
+
+<h3>Hans Hagen</h3>
+
+<p>When you want to use ConTeXt as a&nbsp;service you will face the problem that a run
+takes time and can block the parent process. The past decades we have come up
+with several solutions. Here I will present the approach we use currently.</p>
+
+
+
+<h2>ConTeXt: unexpected usage</h2>
+
+<h3>Hans Hagen</h3>
+
+<p>The development of ConTeXt (with LuaTeX) is a continuous process and is driven
+by user demands, changes in the ecosystem, like fonts, but also by personal
+needs. Because we’re not talking of macros alone but also of a rather large
+library of Lua code, I can also run applications on top of LuaTeX with
+ConTeXt supporting them one way or another. In this talk I will discuss how I
+abuse the system in domotica.</p>
+
+
+<h2>ConTeXt: stepwise execution</h2>
+
+<h3>Hans Hagen</h3>
+
+<p>In a ConTeXt run you’re either in TeX or in Lua. Switching between them is
+easy but it happens in chunks: as with some distributed processing systems you
+pipe TeX source code from Lua to TeX’s input and when done transfer goes
+back to TeX and the pipeline is processed. In that pipeline you can of course
+go back to Lua etc. and we so that frequently in ConTeXt. Here I will discuss
+a variant based on going to TeX and back in the middle of a Lua callout.</p>
+
+
+
+<h2>ConTeXt: bidi</h2>
+
+<h3>Idris Samawi Hamid, Luigi Scarso and Hans Hagen</h3>
+
+<p>While Idris Samawi Hamid and Luigi Scarso are cooking up bidi in an editor, and Idris Samawi Hamid baking a new
+font, we also decided to further finetune right to left typesetting in ConTeXt.
+There is already a whole repertoire of (largely font related) features but many
+of them are dedicated to fonts and checking issues with fonts and opentype
+rendering (in engines). The low level system in LuaTeX has recently be cleaned
+up a bit too so this is a good moment to wrap up the state.</p>
+
+
+
+<h2>ConTeXt: side floats</h2>
+
+<h3>Hans Hagen</h3>
+
+<p>Putting floats next to the text is sort of tricky. There are simply too many
+border cases to cover. After stepwise improving the code, which of course then
+broke existing (user) tricks I decided to do a more drastic cleanup, using a bit
+more of what we can do with Lua. The new approach is mostly compatible but might
+give different spacing but at least we’re more predectable so that we can at some
+point say “This is it”.</p>
+
+
+<h2>Using TeXLua for trackplan graphics</h2>
+
+<h3>Taco Hoekwater</h3>
+
+<p>TeXLua, combined with some of the Lua library files from ConTeXt, can
+easily be used to do parsing of almost any file format. I am using that approach
+to generate graphics from my model railroad trackplan that is itself designed in
+xtrkcad. The LPeg library and some helpers are used to parse the file format
+and generate Metapost source that is then converted into PNG images.</p>
+
+<h2>A use case for <code>\valign</code></h2>
+
+<h3>Taco Hoekwater</h3>
+
+<p>The TeX primitive command <code>\halign</code> is the backbone of traditional
+macros for predominantly horizontal tabular material. Its companion primitive
+<code>\valign</code> can be used for predominantly vertical material, but
+column-based tabular material is rare so there is no pre-made support for
+it in ConTeXt. Since I was required to typeset a table like that,
+I wrote a small set of higher-level macros to allow use of <code>\valign</code>
+in a ConTeXt-friendly manner.</p>
+
+<h2><code>mtxrun</code> scripts</h2>
+
+<h3>Taco Hoekwater</h3>
+
+<p>The <code>mtxrun</code> command allows the execution of separate scripts. Most of these
+are written by Hans, and he occasionally creates new ones. This talk will
+walk through the <code>mtxrun</code> scripts in the distribution, and show you how to
+write your own.</p>
+
+<h2>MFLua 1.0</h2>
+
+<h3>Luigi Scarso</h3>
+
+<p>MFLua 1.0  is the first tagged release, to appear in TeXLive 2019.
+This talk aims to show how can be used to make a simple font
+delegating  Lua to implement the backend.</p>
+
+<h2>MARCS—An online report card system with ConTeXt back end</h2>
+
+<h3>Pavneet Arora</h3>
+   
+<p>The very specific needs of a Canadian Study-Abroad high school for a 
+remotely accessible report card system had become acute.  Unlike 
+standardized report cards which primarily focus on grades, and stock 
+phrases on a per course level, the requirements were for extensive 
+feedback in the form of teacher comments on a per unit or module 
+basis.  Students were thus given the opportunity to use the guidance 
+to improve their work right from the outset and throughout each 
+course.  A final, published report card needed to be output.  The 
+system had to serve multiple constituencies:  students, parents, 
+teachers, teaching assistants, administrative staff, school 
+directors, and school boards with differing granularity of access 
+and control.  The work done to develop MARCS, a web based report 
+card system based on the Laravel PHP framework, and with its 
+ConTeXt back-end for creating print ready report cards will be 
+presented.</p>
+
+
+<h2>ConTeXt: in one second</h2>
+
+<h3>Everyone</h3>
+
+<p>On the web you can find these “Learn ‘foo’ in 1&nbsp;second”
+tutorials (well, Luigi Scarso did find them). In this group activity we will see how far
+we can come in one, two, five, ten or more seconds. It can even become a wiki
+corner.</p>
+
+
+<h2>ConTeXt: font tracing and tricks</h2>
+
+<h3>Hans Hagen</h3>
+
+<p>This is a placeholder for some examples (like the virtual hz example from the
+manual).</p>
+
+<hr/>
+

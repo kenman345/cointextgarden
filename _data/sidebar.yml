@@ -1,0 +1,32 @@
+meetings:
+- year: 2018
+  title: 12th ConTeXt Meeting, Prague&ndash;Sibřina, Czech Republic, 2018
+- year: 2017
+  title: 11th ConTeXt Meeting, Maibach, Germany, 2017
+- year: 2016
+  title: 10th ConTeXt Meeting, Kalenberg, The Netherlands, 2016
+- year: 2015
+  title: 9th ConTeXt Meeting, Nasbinals, France, 2015
+- year: 2014
+  title: 8th ConTeXt Meeting, Bassenge, Belgium, 2014
+- year: 2013
+  title: 7th ConTeXt Meeting, Brejlov (Prague), Czech Republic, 2013
+- year: 2012
+  title: 6th ConTeXt Meeting, Breskens, The Netherlands, 2012
+- year: 2011
+  title: 5th ConTeXt Meeting, Bassenge, Belgium, 2011
+- year: 2010
+  title: 4th ConTeXt Meeting, Brejlov (Prague), Czech Republic, 2010
+- year: 2009
+  title: 3rd ConTeXt Meeting / EuroTeX, The Hague, The Netherlands, 2009
+- year: 2008
+  title: 2st ConTeXt User Meeting, Bohinj, Slovenija, 2008
+- year: 2007
+  title: 1st ConTeXt User Meeting, Epen, The Netherlands, 2007
+additional_links:
+- url: http://wiki.contextgarden.net
+  title: ConTeXt wiki
+  name: wiki
+- url: http://www.pragma-ade.com
+  title: PRAGMA ADE
+  name: pragma

@@ -1,0 +1,46 @@
+{% assign year = page.date | date: '%Y' %}
+<div id="top">
+	<div id="top-one">
+		<div id="top-two">
+			{% capture yearSubPath %}{{site.baseurl}}/{{year}}{% endcapture %}
+			{% for link in site.data[year].nav %}
+			<a href="{{link.path | prepend: yearSubPath}}" title="{{ link.title | default: link.label }}">{{link.label}}</a>
+			&nbsp;
+			{% endfor %}
+		</div>
+	   
+	</div>
+</div>
+<div id="bottom">
+	<div id="bottom-one">
+		<div id="bottom-two">12th <span class="TeX">ConT<span class="E">E</span>Xt</span> Meeting: Prague&ndash;Sibřina, Czech Republic, September 2–8, 2018</div>
+	</div>
+</div>
+<div id="left">
+	<div id="left-one">
+		<div id="left-two">
+			{% for meeting in site.data.sidebar.meetings %}
+			<a href="{{site.baseurl}}/{{meeting.year}}/" title="{{meeting.title}}">{{meeting.year}}</a><br><br>
+			{% endfor %}
+			
+			<br>
+			{% for link in site.data.sidebar.additional_links %}
+			<a href="{{ link.url }}" title="{{ link.title }}">{{ link.name }}</a><br><br>
+			{% endfor %}
+		</div>
+	</div>
+</div>
+<div id="right">
+	<div id="right-safari">
+		<div id="right-one">
+			<div id="right-two">
+				&nbsp;&nbsp;
+				<div id="right-three">
+					<div id="right-four">
+						<div id="right-five"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
